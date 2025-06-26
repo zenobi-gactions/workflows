@@ -18,6 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: ls -al
+      - run: ls -al .github/
   log-context-and-inputs:
     runs-on: ubuntu-latest
     steps:
